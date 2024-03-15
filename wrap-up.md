@@ -21,9 +21,13 @@ and have the limit of a given account to $400 in a single day. Similarly, I can 
 ### If you were to continue building this out, what would you like to add next?
 
 This is a backend application. I would like to complete the frontend application that I am making for this but at the current moment is still unfinished.
-You can checkout the repository at `https://github.com/singiankay/advisors-excel-frontend.git`
+You can checkout the frontend repository at `https://github.com/singiankay/advisors-excel-frontend.git`
 
 I would love to refactor this code and add unit and integration tests.
+I would also love to improve the jwt and headers implementation.
+I would love to improve input sanitazion, I think those are not properly escaped right now aside from default typeORM has.
+For the functionality, I would love to have a PIN number feature, a statement of account and a Loan functionality that isn't tied to
+the credit limit. Maybe perhaps, a car loan application via Mean/Average deposit/withdrawals etc.
 
 ### If you have any other comments or info you'd like the reviewers to know, please add them below.
 
